@@ -1,0 +1,71 @@
+#clock{
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+#greeting {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#todo-form{
+  justify-content: center;
+  }
+#submit-box{
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+#login-form input:first-child {
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+#login-form input:last-child {
+  cursor: pointer;
+  width: 100px;
+  padding: 10px 15px;
+  background-color: transparent;
+  font-size: 30px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+#todo-form input:first-child{
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+#todo-list{
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  margin-bottom: 20px;
+}
+.button{
+  background-color: transparent;
+  border: 0ch;
+}
+li{
+  list-style:none;
+}
+#weather {
+  font-weight: bold;
+  bottom: 80px;
+  position: fixed;
+}
